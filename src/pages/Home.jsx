@@ -16,24 +16,14 @@ export default function Home() {
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {[
           {
+            title: 'JSX Fundamentals',
+            description: 'Understand the basics of JSX and how it differs from HTML.',
+            link: '/jsx'
+          },
+          {
             title: 'React Router',
             description: 'Learn about client-side routing, dynamic routes, and navigation.',
             link: '/router'
-          },
-          {
-            title: 'Context API',
-            description: 'Understand state management and data sharing between components.',
-            link: '/context'
-          },
-          {
-            title: 'Forms & Validation',
-            description: 'Master form handling and validation techniques in React.',
-            link: '/forms'
-          },
-          {
-            title: 'Refs & forwardRef',
-            description: 'Explore direct DOM manipulation and ref forwarding.',
-            link: '/refs'
           },
           {
             title: 'Component Lifecycle',
@@ -41,10 +31,21 @@ export default function Home() {
             link: '/lifecycle'
           },
           {
-            title: 'JSX Fundamentals',
-            description: 'Understand the basics of JSX and how it differs from HTML.',
-            link: '/jsx'
-          }
+            title: 'Forms & Validation',
+            description: 'Master form handling and validation techniques in React.',
+            link: '/forms'
+          },
+          {
+            title: 'Context API',
+            description: 'Understand state management and data sharing between components.',
+            link: '/context'
+          },
+          {
+            title: 'Refs & forwardRef',
+            description: 'Explore direct DOM manipulation and ref forwarding.',
+            link: '/refs'
+          },
+
         ].map((item) => (
           <a
             key={item.title}
