@@ -14,7 +14,7 @@ function App() {
   return (
     <ThemeProvider>
       <UserProvider>
-        <Router>
+        <Router basename='/'>
           <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
             <Navbar />
             <Routes>
