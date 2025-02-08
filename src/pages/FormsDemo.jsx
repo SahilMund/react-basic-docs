@@ -13,8 +13,8 @@ export default function FormsDemo() {
 
         <section className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Controlled vs Uncontrolled Components</h2>
-          <div className="prose dark:prose-invert">
-            <h3 className="text-lg font-medium mb-2">Controlled Components</h3>
+          <div className="prose dark:prose-invert flex justify-between">
+            <div><h3 className="text-lg font-medium mb-2">Controlled Components</h3>
             <ul className="list-disc pl-5 mb-4 text-gray-600 dark:text-gray-300">
               <li>Form data is handled by React state</li>
               <li>Uses onChange method to update the state</li>
@@ -22,8 +22,8 @@ export default function FormsDemo() {
               <li>re-renders on every change</li>
               <li>Immediate access to form data</li>
               <li>Better for complex validation</li>
-            </ul>
-
+            </ul></div>
+            <div>
             <h3 className="text-lg font-medium mb-2">Uncontrolled Components</h3>
             <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
               <li>Form data is handled by the DOM</li>
@@ -33,6 +33,9 @@ export default function FormsDemo() {
               <li>Better performance</li>
               <li>Good for simple forms</li>
             </ul>
+            </div>
+
+
           </div>
         </section>
 

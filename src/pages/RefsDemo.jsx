@@ -29,6 +29,20 @@ export default function RefsDemo() {
             </ul>
           </div>
         </section>
+
+        <section className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Related Topics</h2>
+          <div className="prose dark:prose-invert">
+            <h3 className="text-lg font-medium mb-2"></h3>
+            <ul className="list-disc pl-5 mb-4 text-gray-600 dark:text-gray-300">
+              <li>ref</li>
+              <li>useRef</li>
+              <li>forwardRef</li>
+              <li>useImperativeHandle</li>
+
+            </ul>
+          </div>
+        </section>
       </div>
     </div>
   );

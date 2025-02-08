@@ -151,7 +151,6 @@ export default function ContextDemo() {
             <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
               <li>Additional library</li>
               <li>More complex setup</li>
-              <li>Better for high-frequency updates</li>
               <li>Best for large applications</li>
               <li>Includes dev tools and middleware</li>
             </ul>
@@ -169,11 +168,8 @@ export default function ContextDemo() {
                 used for state management and passing data down the component
                 tree without prop drilling.
               </li>
-              <li>Validation Libraries such as Zod and yup</li>
-              <li>
-                React toastify library for notification instead of showing alert
-                confirmation message
-              </li>
+              <li>Redux, Redux toolkit, zustand (some popular state management libs)</li>
+             
             </ul>
           </div>
         </section>
